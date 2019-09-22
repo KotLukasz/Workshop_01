@@ -37,7 +37,7 @@ public class LottoSimulator {
 		}
 
 		//Sorting Array
-//		Arrays.sort(guessNumbers);
+		//Arrays.sort(guessNumbers);
 		for (int i = 0; i < guessNumbers.length; i++) {
 			for (int j = 0; j < guessNumbers.length; j++)
 				if (guessNumbers[i] < guessNumbers[j]) {
